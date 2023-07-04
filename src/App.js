@@ -1,4 +1,3 @@
-import './App.css';
 import {app} from './config/firebase.config'
 
 function App() {
@@ -7,8 +6,7 @@ function App() {
 
   return (
     <>
-    
-   <h1>app</h1>
+   <h1>My App</h1>
     </>
   );
 }

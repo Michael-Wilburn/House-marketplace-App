@@ -45,7 +45,7 @@ service firebase.storage {
   }
 }
 ```
-- [ ] Dummy Data & Indexes
+- [x] Dummy Data & Indexes
 - [ ] Pages & Routes
 - [ ] Navbar Component
 ---
