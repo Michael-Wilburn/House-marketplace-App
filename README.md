@@ -3,7 +3,7 @@
 - ##  House Marketplace Project Start
 - [x] Create-React-App-Setup & FireBase Config
 
-- [ ] Enable Authentication & Create Rules
+- [x] Enable Authentication & Create Rules
 ##### Setting rules in Common Expression Language on Firebase
 ###### FIRESTORE RULES
 
