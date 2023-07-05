@@ -1,78 +1,3 @@
-# House Marketplace Project 
----
-- ##  House Marketplace Project Start
-- [x] Create-React-App-Setup & FireBase Config
-##### Install Firebase dependencies
-```
-$ npm install firebase
-```
-- [x] Enable Authentication & Create Rules
-##### Setting rules in Common Expression Language on Firebase
-###### FIRESTORE RULES
-
-```
-
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    // Listings
-    match /listings/{listing} {
-    	allow read;
-      allow create: if request.auth != null && request.resource.data.imgUrls.size() < 7;
-    	allow delete: if resource.data.userRef == request.auth.uid;
-    }
-   
-    // Users
-    match /users/{user} {
-    	allow read;
-    	allow create;
-    	allow update: if request.auth.uid == user
-    }
-  }
-}
-```
-
-###### STORAGE RULES
-```
-
-rules_version = '2';
-service firebase.storage {
-  match /b/{bucket}/o {
-    match /{allPaths=**} {
-      allow read;
-      allow write: if
-      request.auth != null &&
-      request.resource.size < 2 * 1024 * 1024 && //2MB
-      request.resource.contentType.matches('image/.*')
-    }
-  }
-}
-```
-- [x] Dummy Data & Indexes
-- [x] Pages & Routes
-##### Install React Router
-```
-$ npm install react-router-dom
-
-```
-- [ ] Navbar Component
----
-- ## Firebase Authentication & Profile
-
-- [ ] 1) Sign In & Sign Up Form  
-- [ ] 2) Register User
-- [ ] 3) Save User To Firerstore
-- [ ] 4) User Sign In
-- [ ] 5) Alerts With React Toastify
-- [ ] 6) User Logout
-- [ ] 7) Display & Update User Details
-- [ ] 8) PrivateRoute Component & useAuthStatus Hook
-- [ ] 9) Forgot Password
-- [ ] 10) Google OAuth
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -143,3 +68,81 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# House Marketplace Project 
+---
+- ##  House Marketplace Project Start
+- [x] Create-React-App-Setup & FireBase Config
+##### Install Firebase dependencies
+```
+$ npm install firebase
+```
+- [x] Enable Authentication & Create Rules
+##### Setting rules in Common Expression Language on Firebase
+###### FIRESTORE RULES
+
+```
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Listings
+    match /listings/{listing} {
+    	allow read;
+      allow create: if request.auth != null && request.resource.data.imgUrls.size() < 7;
+    	allow delete: if resource.data.userRef == request.auth.uid;
+    }
+   
+    // Users
+    match /users/{user} {
+    	allow read;
+    	allow create;
+    	allow update: if request.auth.uid == user
+    }
+  }
+}
+```
+
+###### STORAGE RULES
+```
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read;
+      allow write: if
+      request.auth != null &&
+      request.resource.size < 2 * 1024 * 1024 && //2MB
+      request.resource.contentType.matches('image/.*')
+    }
+  }
+}
+```
+- [x] Dummy Data & Indexes
+- [x] Pages & Routes
+##### Install React Router
+```
+$ npm install react-router-dom
+
+```
+- [x] Navbar Component
+---
+- ## Firebase Authentication & Profile
+
+- [ ] 1) Sign In & Sign Up Form  
+- [ ] 2) Register User
+- [ ] 3) Save User To Firerstore
+- [ ] 4) User Sign In
+- [ ] 5) Alerts With React Toastify
+- [ ] 6) User Logout
+- [ ] 7) Display & Update User Details
+- [ ] 8) PrivateRoute Component & useAuthStatus Hook
+- [ ] 9) Forgot Password
+- [ ] 10) Google OAuth
+
+
+
+
