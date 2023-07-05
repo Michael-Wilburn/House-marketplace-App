@@ -1,4 +1,4 @@
-# 0 Getting Started with Create React App
+# 0.0 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -128,12 +128,12 @@ service firebase.storage {
 $ npm install react-router-dom
 
 ```
-- [x] Navbar Component
+- [x] 1.5 Navbar Component
 ---
 - ## 2.0 Firebase Authentication & Profile
 
 - [x] 2.1 Sign In & Sign Up Form  
-- [ ] 2.2 Register User
+- [x] 2.2 Register User
 - [ ] 2.3 Save User To Firerstore
 - [ ] 2.4 User Sign In
 - [ ] 2.5 Alerts With React Toastify
