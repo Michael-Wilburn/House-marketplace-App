@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# 0 Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -73,13 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # House Marketplace Project 
 ---
-- ##  House Marketplace Project Start
-- [x] Create-React-App-Setup & FireBase Config
+- ## 1.0 House Marketplace Project Start
+- [x] 1.1 Create-React-App-Setup & FireBase Config
 ##### Install Firebase dependencies
 ```
 $ npm install firebase
 ```
-- [x] Enable Authentication & Create Rules
+- [x] 1.2 Enable Authentication & Create Rules
 ##### Setting rules in Common Expression Language on Firebase
 ###### FIRESTORE RULES
 
@@ -121,8 +121,8 @@ service firebase.storage {
   }
 }
 ```
-- [x] Dummy Data & Indexes
-- [x] Pages & Routes
+- [x] 1.3 Dummy Data & Indexes
+- [x] 1.4 Pages & Routes
 ##### Install React Router
 ```
 $ npm install react-router-dom
@@ -130,19 +130,16 @@ $ npm install react-router-dom
 ```
 - [x] Navbar Component
 ---
-- ## Firebase Authentication & Profile
+- ## 2.0 Firebase Authentication & Profile
 
-- [ ] 1) Sign In & Sign Up Form  
-- [ ] 2) Register User
-- [ ] 3) Save User To Firerstore
-- [ ] 4) User Sign In
-- [ ] 5) Alerts With React Toastify
-- [ ] 6) User Logout
-- [ ] 7) Display & Update User Details
-- [ ] 8) PrivateRoute Component & useAuthStatus Hook
-- [ ] 9) Forgot Password
-- [ ] 10) Google OAuth
-
-
-
+- [x] 2.1 Sign In & Sign Up Form  
+- [ ] 2.2 Register User
+- [ ] 2.3 Save User To Firerstore
+- [ ] 2.4 User Sign In
+- [ ] 2.5 Alerts With React Toastify
+- [ ] 2.6 User Logout
+- [ ] 2.7 Display & Update User Details
+- [ ] 2.8 PrivateRoute Component & useAuthStatus Hook
+- [ ] 2.9 Forgot Password
+- [ ] 2.10 Google OAuth
 
