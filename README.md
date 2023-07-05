@@ -2,7 +2,10 @@
 ---
 - ##  House Marketplace Project Start
 - [x] Create-React-App-Setup & FireBase Config
-
+##### Install Firebase dependencies
+```
+$ npm install firebase
+```
 - [x] Enable Authentication & Create Rules
 ##### Setting rules in Common Expression Language on Firebase
 ###### FIRESTORE RULES
@@ -46,7 +49,12 @@ service firebase.storage {
 }
 ```
 - [x] Dummy Data & Indexes
-- [ ] Pages & Routes
+- [x] Pages & Routes
+##### Install React Router
+```
+$ npm install react-router-dom
+
+```
 - [ ] Navbar Component
 ---
 - ## Firebase Authentication & Profile
