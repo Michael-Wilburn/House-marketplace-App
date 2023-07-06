@@ -134,7 +134,7 @@ $ npm install react-router-dom
 
 - [x] 2.1 Sign In & Sign Up Form  
 - [x] 2.2 Register User
-- [ ] 2.3 Save User To Firerstore
+- [x] 2.3 Save User To Firerstore
 - [ ] 2.4 User Sign In
 - [ ] 2.5 Alerts With React Toastify
 - [ ] 2.6 User Logout
