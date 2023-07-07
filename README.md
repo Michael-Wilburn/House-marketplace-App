@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # House Marketplace Project 
 ---
-- ## 1.0 House Marketplace Project Start
+## 1.0 House Marketplace Project Start
 - [x] 1.1 Create-React-App-Setup & FireBase Config
 ##### Install Firebase dependencies
 ```
@@ -130,13 +130,18 @@ $ npm install react-router-dom
 ```
 - [x] 1.5 Navbar Component
 ---
-- ## 2.0 Firebase Authentication & Profile
+## 2.0 Firebase Authentication & Profile
 
 - [x] 2.1 Sign In & Sign Up Form  
 - [x] 2.2 Register User
 - [x] 2.3 Save User To Firerstore
 - [x] 2.4 User Sign In
-- [ ] 2.5 Alerts With React Toastify
+- [x] 2.5 Alerts With React Toastify
+##### Install Toastify
+```
+$ npm install --save react-toastify
+
+```
 - [ ] 2.6 User Logout
 - [ ] 2.7 Display & Update User Details
 - [ ] 2.8 PrivateRoute Component & useAuthStatus Hook
