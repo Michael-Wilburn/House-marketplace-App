@@ -142,7 +142,7 @@ $ npm install react-router-dom
 $ npm install --save react-toastify
 
 ```
-- [ ] 2.6 User Logout
+- [x] 2.6 User Logout
 - [ ] 2.7 Display & Update User Details
 - [ ] 2.8 PrivateRoute Component & useAuthStatus Hook
 - [ ] 2.9 Forgot Password
