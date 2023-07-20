@@ -22,7 +22,7 @@ function Profile() {
 
     const onLogout = () => {
         auth.signOut()
-        navigate('/')
+        navigate('/sign-in')
     }
 
     const onSubmit = async () => {
@@ -91,7 +91,7 @@ function Profile() {
                             id="Email"
                             // className={!changeDetails ? 'profileEmail' : 'profileEmailActive'}
                             className="profileEmail"
-                            disabled={!changeDetails}
+                            disabled
                             value={email}
                             onChange={onChange}
                         />

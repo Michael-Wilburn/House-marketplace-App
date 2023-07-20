@@ -43,6 +43,12 @@ button {
   font-size: 1rem;
 }
 
+.passwordInput:focus,
+.emailInput:focus,
+.nameInput:focus {
+  border: 1px solid #00cc66;
+}
+
 @media (min-width: 1100px) {
 
   .input,
@@ -696,6 +702,9 @@ button {
 
 .profileNameActive {
   background-color: rgba(44, 44, 44, 0.1);
+  border: 1px solid #00cc66;
+  border-radius: 1rem;
+  line-height: 1.5rem;
   padding: 0.3rem;
   width: 97%;
 }
