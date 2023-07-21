@@ -88,7 +88,7 @@ function SignUp() {
                             className="showPassword"
                             onClick={() => setShowPassword((prevState) => !prevState)} />
                     </div>
-                    <Link to='forgot-password' className="forgotPasswordLink">Forgot Password ?</Link>
+                    <Link to='/forgot-password' className="forgotPasswordLink">Forgot Password ?</Link>
                     <div className="signUpBar">
                         <p className="singUpText">
                             Sing Up
