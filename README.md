@@ -145,6 +145,8 @@ $ npm install --save react-toastify
 - [x] 2.6 User Logout
 - [x] 2.7 Display & Update User Details
 - [x] 2.8 PrivateRoute Component & useAuthStatus Hook
-- [ ] 2.9 Forgot Password
-- [ ] 2.10 Google OAuth
+- [x] 2.9 Forgot Password
+- [x] 2.10 Google OAuth
+
+
 
